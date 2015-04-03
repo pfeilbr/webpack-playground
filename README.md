@@ -1,6 +1,6 @@
 # [Webpack](http://webpack.github.io/) Playground
 
-A project to learn and experiment with the [webpack]((http://webpack.github.io/) module bundler.
+A project to learn and experiment with the [webpack](http://webpack.github.io/) module bundler.
 
 ### Development
 

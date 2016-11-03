@@ -1,6 +1,8 @@
 // small and simple angular app.  just enough to see that it works
 var angular = require('angular');
 
+require('../stylesheets/main.css');
+
 // https://github.com/teux/ng-cache-loader
 require('ng-cache!./../partials/view01.html');
 
@@ -33,7 +35,7 @@ angular.module('app', [require('angular-route')])
 
     .controller('MyCtrl2', ['$scope', function ($scope) {
         $scope.msg = 'Hello from view02';
-    }])
+    }]);
 
 
-    .bootstrap(root, ['app']);
+angular.bootstrap(root, ['app']);

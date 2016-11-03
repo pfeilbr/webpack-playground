@@ -4,5 +4,10 @@ body {
 }
 
 ul {
-    background-color: lightgoldenrodyellow;
+    background-color: lightcoral;
+}
+
+.callout {
+    color: #00A000;
+    background-color: #ffff00;
 }
